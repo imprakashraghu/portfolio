@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemaprakash Raghu - Personal Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="w-full flex flex-col lg:flex-row items-center justify-between sticky top-0">
+        <a href="#home" class="py-4 font-extrabold text-white text-2xl mx-8">Prakash</a>
+        <div class="mx-4 lg:mx-8 flex items-center">
+            <a href="#experience" class="p-2 lg:p-4 text-md hover:bg-blue-600 hover:font-medium cursor-pointer text-white">Experience</a>
+            <a href="#skills" class="p-2 lg:p-4 text-md hover:bg-blue-600 hover:font-medium cursor-pointer text-white">Skills</a>
+            <a href="#projects" class="p-2 lg:p-4 text-md hover:bg-blue-600 hover:font-medium cursor-pointer text-white">Projects</a>
+            <a href="#contact" class="p-2 lg:p-4 text-md hover:bg-blue-600 hover:font-medium cursor-pointer text-white">Contact</a>
+        </div>
+    </div>
+    <div class="w-full flex flex-col lg:flex-row items-center justify-center hero__section">
+        <div class="lg:w-1/2 flex flex-col items-start lg:px-0 px-8 mb-8 lg:mb-0">
+            <h1 class="w-full font-bold text-white text-4xl text-left lg:text-right lg:mr-10 p-0 h-24 lg:h-12">Hemaprakash Raghu</h1>
+            <!-- <h2 class="w-full mt-2 font-medium text-white text-xl text-right mr-10">Software Developer</h2> -->
+            <p class="w-full mt-3 text-gray-200 text-md text-left lg:text-right lg:mr-10">
+                Hi, I am a self taught software developer
+            </p>
+            <div class="w-full text-left lg:text-right py-3 mt-2">
+                <a 
+                    href="https://instagram.com/imprakashraghu"
+                    target="_blank"
+                    class="py-2 px-4 text-white bg-blue-600 text-center cursor-pointer text-sm rounded-sm shadow hover:bg-blue-700"
+                >View Resume</a>
+            </div>
+            <h2 class="w-full mt-2 font-medium text-white text-3xl text-left lg:text-right lg:mr-10">
+            <span role="emoji">🤴🏼</span></h2>
+        </div>
+        <div class="lg:w-1/2 mx-14 flex items-start">
+            <img 
+                class="hero__image border-2 p-1 border-blue-400"
+                src="avatar.jpeg"
+            />
+        </div>
+    </div>
+    <div id="experience" class="w-full py-6 lg:py-10 flex flex-col items-start experience__section">
+        <p class="w-full font-medium text-white text-md text-left mx-8">WORK EXPERIENCE</p>
+        <h1 class="w-full py-6 font-bold text-white text-2xl lg:text-5xl text-left px-8">I have worked for in the past</h1>
+        <div class="px-8 grid grid-cols-1 lg:grid-cols-3 gap-8 py-4 lg:py-10">
+            <div class="flex flex-col items-start">
+                <h1 class="text-5xl lg:text-8xl text-white text-left font-medium lg:mb-0 mb-2">01</h1>
+                <h2 class="ml-2 flex items-center text-2xl text-white font-bold text-blue-600 text-left py-1">TCS
+                </h2>
+                <p class="ml-2 text-gray-400 text-xs">Feb 2020 - Jun 2020</p>
+                <h3 class="ml-2 text-white font-semibold text-xl text-left py-1">Software Developer Intern</h3>
+                <p class="text-left ml-2 text-gray-400 text-md py-1">
+                    Contributed as a front-end javascript developer. Built fully responsive web applications and had a research on custom web components.
+                </p>
+            </div>
+            <div class="flex flex-col items-start">
+                <h1 class="text-5xl lg:text-8xl text-white text-left font-medium lg:mb-0 mb-2">02</h1>
+                <h2 class="ml-2 flex items-center text-2xl text-white font-bold text-blue-600 text-left py-1">VSCALEUP
+                </h2>
+                <p class="ml-2 text-gray-400 text-xs">Jul 2020 - May 2021</p>
+                <h3 class="ml-2 text-white font-semibold text-xl text-left py-1">Software Developer</h3>
+                <p class="text-left ml-2 text-gray-400 text-md py-1">
+                    Had a team player role on developing javascript applications. Worked on marketing campaigns which had an impact over 200 thousand users.
+                </p>
+            </div>
+            <div class="flex flex-col items-start">
+                <h1 class="text-5xl lg:text-8xl text-white text-left font-medium lg:mb-0 mb-2">03</h1>
+                <h2 class="ml-2 flex items-center text-2xl text-white font-bold text-blue-600 text-left py-1">TCS 
+                </h2>
+                <p class="ml-2 text-gray-400 text-xs">Jun 2021 - Present</p>
+                <h3 class="ml-2 text-white font-semibold text-xl text-left py-1">System Engineer</h3>
+                <p class="text-left ml-2 text-gray-400 text-md py-1">
+                    Contributing as a full-stack javascript developer for web and server side applications.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="skills" class="w-full py-10 flex flex-col lg:flex-row items-start lg:justify-between skillset__section">
+        <div class="w-full lg:w-1/3 flex flex-col items-start lg:mb-0 mb-4">
+            <h1 class="w-full font-bold text-6xl text-left mx-8 mb-3 text-transparent bg-clip-text pink-grad">Skillset</h1>
+            <h2 class="mx-8 text-left text-gray-400 text-md py-2">
+                Architecting myself over various skills helps me to be a specialized developer. Having a never ending addiction to learn something new keeps me up.
+            </h2>
+        </div>
+        <div class="px-8 lg:mx-10 w-full lg:w-1/2 grid grid-cols-1 lg:grid-cols-2 grid-rows-2 gap-8 lg:gap-12">
+            <div class="flex flex-col items-start">
+                <img class="h-12 contain" src="https://img.icons8.com/color/48/000000/picture-in-picture.png"/>
+                <h2 class="text-white text-left text-xl font-bold py-2">Software Development</h2>
+                <p class="text-left text-gray-400 text-md">Developing various kinds of applications using javascript. Having the power to develop applications in any framework or technology with a steep learning curve.</p>
+            </div>
+            <div class="flex flex-col items-start">
+                <img class="h-12 contain" src="https://img.icons8.com/fluent/48/000000/design.png"/>
+                <h2 class="text-white text-left text-xl font-bold py-2">Architect Software</h2>
+                <p class="text-left text-gray-400 text-md">Having a great respect over procedures and documentations, enables me to design software based on customer need with a proper architectural pattern.</p>
+            </div>
+            <div class="flex flex-col items-start">
+                <img class="h-12 contain" src="https://img.icons8.com/emoji/48/000000/straight-ruler-emoji.png"/>
+                <h2 class="text-white text-left text-xl font-bold py-2">Project Planning</h2>
+                <p class="text-left text-gray-400 text-md">Had a great experience on making a great plan (hoo-yah!) for the customers or the team to build and deploy applications over internet.</p>
+            </div>
+            <div class="flex flex-col items-start">
+                <img class="h-12 contain" src="https://img.icons8.com/fluent/48/000000/spring-in-motion.png"/>
+                <h2 class="text-white text-left text-xl font-bold py-2">DevOps</h2>
+                <p class="text-left text-gray-400 text-md">Having the fuel to deliver projects in a high velocity following the best practices. Loving the cloud to be a a great partner in deploying applications.</p>
+            </div>
+        </div>
+    </div>
+    <div id="technologies" class="w-full flex flex-col items-start technologies__section">
+        <h1 class="w-full font-bold text-4xl text-left px-8 mb-8 text-white">Experienced with</h1>
+        <div class="px-8 w-full grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-10">
+            <div class="flex flex-col items-start py-4 px-2">
+                <img class="h-16 contain" src="./tech/js.png"/>
+                <h2 class="text-white text-left text-xl font-bold py-2">Javascript</h2>
+                <p class="text-left text-gray-400 text-md">
+                    It is been my primary language to code and create applications to the real world.
+                </p>
+                <div class="flex flex-row items-center my-2 overflow-x-auto">
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 text-sm mr-2">React</span>
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 text-sm mr-2">Angular</span>
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 text-sm mr-2">NextJS</span>
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 text-sm mr-2">NodeJS</span>
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 whitespace-nowrap text-sm mr-2">React Native</span>
+                </div>
+            </div>
+            <div class="flex flex-col items-start py-4 px-2">
+                <img class="h-16 contain" src="./tech/database.png"/>
+                <h2 class="text-white text-left text-xl font-bold py-2">Database</h2>
+                <p class="text-left text-gray-400 text-md">
+                    I am used to relational, non-relational and document type databases for development.
+                </p>
+                <div class="flex flex-row items-center my-2">
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 text-sm mr-2">MySQL</span>
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 text-sm mr-2">PosgresSQL</span>
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 text-sm mr-2">MongoDB</span>
+                </div>
+            </div>
+            <div class="flex flex-col items-start py-4 px-2">
+                <img class="h-16 contain" src="./tech/cloud.png"/>
+                <h2 class="text-white text-left text-xl font-bold py-2">Cloud</h2>
+                <p class="text-left text-gray-400 text-md">
+                   I have been working in popular cloud based technologies.
+                </p>
+                <div class="flex flex-row items-center my-2">
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 text-sm mr-2">AWS</span>
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 text-sm mr-2">Firebase</span>
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 text-sm mr-2">Google Cloud</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects" class="w-full py-10 flex flex-col-reverse lg:flex-row items-start justify-between skillset__section">
+        <div class="px-8 lg:mx-4 w-full lg:w-1/2 grid grid-cols-1 lg:grid-cols-2 grid-rows-2 gap-10 lg:gap-12">
+            <div class="flex flex-col items-start">
+                <h2 class="text-white text-left text-xl font-bold py-1">Amazon Clone</h2>
+                <h3 class="text-blue-500 text-left text-sm font-medium mb-1">Full Stack Application</h3>
+                <p class="text-left text-gray-400 text-md mb-2">Customized e-commerce website and mobile app built with React &amp; React Native Framework.</p>
+                <div class="flex flex-row items-center mb-2">
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 text-xs mr-2">React</span>
+                    <span class="bg-gray-800 rounded-md text-white px-2 whitespace-nowrap py-1 text-xs mr-2">React Native</span>
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 text-xs mr-2">Stripe</span>
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 whitespace-nowrap text-xs mr-2">Google Firebase</span>
+                </div>
+                <div class="w-full flex flex-row items-center">
+                    <a href="https://github.com/imprakashraghu/amazon-clone" target="_blank" class="cursor-pointer text-blue-200 rounded-md pr-2 underline py-1 hover:text-blue-400 text-sm">GitHub (Web)</a>
+                    <a href="https://github.com/imprakashraghu/amazon-mobile-clone" target="_blank" class="cursor-pointer text-blue-200 rounded-md pr-2 underline py-1 hover:text-blue-400 text-sm">GitHub (Mobile)</a>
+                </div>
+            </div>
+            <div class="flex flex-col items-start">
+                <h2 class="text-white text-left text-xl font-bold py-1">Bug Lane</h2>
+                <h3 class="text-blue-500 text-left text-sm font-medium mb-1">Google Chrome Extension</h3>
+                <p class="text-left text-gray-400 text-md mb-2">Manage Bugs anywhere you browse, ability to add notes, urls or a bug reference. Supports Dark UI</p>
+                <div class="flex flex-row items-center mb-2">
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 text-xs mr-2">Javascript</span>
+                    <span class="bg-gray-800 rounded-md text-white px-2 whitespace-nowrap py-1 text-xs mr-2">HTML</span>
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 text-xs mr-2">CSS</span>
+                </div>
+                <div class="w-full flex flex-row items-center">
+                    <a href="https://github.com/imprakashraghu/bug-lane-extension" target="_blank" class="cursor-pointer text-blue-200 rounded-md pr-2 underline py-1 text-sm hover:text-blue-400">GitHub</a>
+                </div>
+            </div>
+            <div class="flex flex-col items-start">
+                <h2 class="text-white text-left text-xl font-bold py-1">HyderJS</h2>
+                <h3 class="text-blue-500 text-left text-sm font-medium mb-1">Open Source Javasript Library</h3>
+                <p class="text-left text-gray-400 text-md mb-2">Simple and easy way to create one-page websites using JSON. Bootstrap and Tailwindcss supported</p>
+                <div class="flex flex-row items-center mb-2">
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 text-xs mr-2">Javascript</span>
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 text-xs mr-2">CSS</span>
+                </div>
+                <div class="w-full flex flex-row items-center">
+                    <a href="https://github.com/imprakashraghu/hyderjs" target="_blank" class="cursor-pointer text-blue-200 rounded-md pr-2 underline py-1 text-sm hover:text-blue-400">GitHub</a>
+                    <a href="https://hyder.js.org/" target="_blank" class="cursor-pointer text-blue-200 rounded-md pr-2 underline py-1 text-sm hover:text-blue-400">Website</a>
+                    <a href="https://imprakashraghu.medium.com/hyderjs-new-way-to-build-websites-now-428d1d5b0afe" target="_blank" class="cursor-pointer text-blue-200 rounded-md pr-2 underline py-1 text-sm hover:text-blue-400">Article</a>
+                </div>
+            </div>
+            <div class="flex flex-col items-start">
+                <h2 class="text-white text-left text-xl font-bold py-1">Learn With Me</h2>
+                <h3 class="text-blue-500 text-left text-sm font-medium mb-1">Open Source Learning-Material</h3>
+                <p class="text-left text-gray-400 text-md mb-2">Allowing people to look for free-content and helping them to guide or learn a particular thing.</p>
+                <div class="flex flex-row items-center mb-2">
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 text-xs mr-2">React</span>
+                    <span class="bg-gray-800 rounded-md text-white px-2 py-1 text-xs mr-2">TailwindCSS</span>
+                </div>
+                <div class="w-full flex flex-row items-center">
+                    <a href="https://github.com/imprakashraghu/learnwithme" target="_blank" class="cursor-pointer text-blue-200 rounded-md pr-2 underline py-1 text-sm hover:text-blue-400">GitHub</a>
+                    <a href="https://learnwithme.vercel.app/" target="_blank" class="cursor-pointer text-blue-200 rounded-md pr-2 underline py-1 text-sm hover:text-blue-400">Website</a>
+                </div>
+            </div>
+        </div>
+        <div class="w-full lg:w-1/3 flex flex-col items-start">
+            <h1 class="w-full font-bold text-6xl text-left mx-8 h-20 bg-clip-text text-transparent orange-grad">Projects</h1>
+            <h2 class="mx-8 text-left text-gray-400 text-md">
+                let's see what I have built and <br/>what it is capable of.
+            </h2>
+        </div>
+    </div>
+    <div id="contact" class="w-full flex flex-col items-center justify-center py-12">
+        <p class="w-full font-medium text-white text-md text-center px-8 lg:mx-8">CONTACT</p>
+        <h1 class="w-full py-3 font-bold text-white text-5xl text-center px-2 lg:mx-8">Get to know more about me.</h1>
+        <h2 class="w-full lg:w-1/3 text-center text-lg text-white py-2">Connect with me on</h2>
+        <div class="mx-auto grid grid-cols-2 lg:grid-cols-3 gap-4">
+            <a 
+                href="https://linkedin.com/in/imprakashraghu"
+                target="_blank"
+                class="py-2 px-4 text-white bg-blue-600 text-center cursor-pointer rounded-sm shadow my-4 hover:bg-blue-700"
+            >LinkedIn</a>
+            <a 
+                href="https://github.com/imprakashraghu"
+                target="_blank"
+                class="py-2 px-4 text-white bg-blue-600 text-center cursor-pointer rounded-sm shadow my-4 hover:bg-blue-700"
+            >GitHub</a>
+            <a 
+                href="https://imprakashraghu.medium.com"
+                target="_blank"
+                class="py-2 px-4 text-white bg-blue-600 text-center cursor-pointer rounded-sm shadow my-4 hover:bg-blue-700"
+            >Medium</a>
+            <a 
+                href="https://snapchat.com/add/imprakashraghu"
+                target="_blank"
+                class="py-2 px-4 text-white bg-blue-600 text-center cursor-pointer rounded-sm shadow my-4 hover:bg-blue-700"
+            >SnapChat</a>
+            <a 
+                href="https://twitter.com/imprakashraghu"
+                target="_blank"
+                class="py-2 px-4 text-white bg-blue-600 text-center cursor-pointer rounded-sm shadow my-4 hover:bg-blue-700"
+            >Twitter</a>
+            <a 
+                href="https://instagram.com/imprakashraghu"
+                target="_blank"
+                class="py-2 px-4 text-white bg-blue-600 text-center cursor-pointer rounded-sm shadow my-4 hover:bg-blue-700"
+            >Instagram</a>
+        </div>
+        <hr class="bg-gray-400 opacity-50 text-gray-400 w-1/6 mx-auto mt-4 mb-2" />    
+        <a 
+            href="mailto:prakashjaw@hotmail.com"
+            class="py-2 px-4 text-white bg-blue-600 text-center cursor-pointer rounded-sm shadow my-4 hover:bg-blue-700"
+        >Email Me</a>
+    </div>
+    <div class="w-full py-4 bg-gray-900 flex flex-col lg:flex-row items-center lg:items-start justify-between">
+        <p class="text-gray-400 text-left text-sm bg-transparent lg:ml-8 lg:mb-0 mb-4" id="footer_text">Hemaprakash Raghu © </p>
+        <div class="flex items-center bg-transparent">
+            <a class="text-gray-400 bg-transparent text-sm mr-3" href="https://www.flaticon.com" title="icons">Icons by Flaticon</a>
+            <p class="pl-2 text-gray-400 text-left text-sm bg-transparent lg:mr-8">Personal Portfolio</p>
+        </div>
+    </div>
+</body>
+</html>
+<script>document.getElementById('footer_text').appendChild(document.createTextNode(new Date().getFullYear()))</script>
